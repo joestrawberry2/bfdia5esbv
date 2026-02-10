@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BFDIA 5e Subtitles</title>
+    <style>
+        @font-face {
+            font-family: 'Shag Lounge';
+            src: url('/fonts/Shag-Lounge.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #ff6b9d 0%, #c94b6e 100%);
+            font-family: 'Shag Lounge', 'Cera Round Pro', 'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        h1 {
+            color: white;
+            font-size: 3em;
+            text-align: center;
+            margin-bottom: 40px;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+            font-weight: 700;
+        }
+
+        .download-container {
+            background: white;
+            padding: 30px 50px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .download-btn {
+            background: linear-gradient(135deg, #ff6b9d 0%, #c94b6e 100%);
+            color: white;
+            padding: 15px 40px;
+            font-size: 1.3em;
+            font-family: 'Shag Lounge', 'Cera Round Pro', 'Comic Sans MS', sans-serif;
+            font-weight: 700;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .download-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .download-icon {
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+
+        .credits {
+            margin-top: 30px;
+            text-align: center;
+            color: white;
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .file-size {
+            color: #666;
+            font-size: 0.85em;
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>BFDIA 5e Subtitles</h1>
+    <div class="download-container">
+        <a href="https://bfdi.tv/captions/5e.sbv" download class="download-btn">
+            <span class="download-icon">⬇</span>Download Subtitles
+        </a>
+        <p class="file-size">14 KB</p>
+    </div>
+    <p class="credits">© jacknjellify</p>
+</body>
+</html>
